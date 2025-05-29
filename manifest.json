@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Keep Tabs",
+  "permissions": [
+    "clipboardWrite",
+    "scripting",
+    "tabs",
+    "activeTab",
+    "contextMenus"
+  ],
+  "incognito": "spanning",
+  "background": {
+    "service_worker": "src/background.js",
+    "type": "module"
+  },
+  
+  "description": "Save some or all of your tabs and export them, then restore them later.",
+  "version": "1.0",
+  "icons": {
+    "16": "img/tab-16.png"
+  },
+  "action": {
+    "default_popup": "src/popup.html",
+    "default_icon": {
+      "16": "img/tab-16.png"
+    }
+  }
+}
