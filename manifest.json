@@ -6,7 +6,8 @@
     "scripting",
     "tabs",
     "activeTab",
-    "contextMenus"
+    "contextMenus",
+    "storage"
   ],
   "incognito": "spanning",
   "background": {
